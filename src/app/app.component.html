@@ -1,80 +1,34 @@
 <div class="container-fluid">
 
   <div class="row">
-    <div class="col-sm">
-      One of three columns
+    <div class="col jumbotron">
+      <h1>{{ name }}'s {{ appName }}</h1>
     </div>
-    <div class="col-sm">
-      One of three columns
-    </div>
-    <div class="col-sm">
-      One of three columns
-    </div>
-  </div>  
-
-  <div class="row">
-    <h1 class="col jumbotron">My {{ appName }}</h1>
   </div>
 
   <div class="row">
       <div class="col-12">
         <input type="text" [(ngModel)]="name">
       </div>
-      <div class="col"><hr></div>
       <div class="col-12">
         <p>{{ name }}</p>   
       </div>
   </div>
 
   <div class="row">
-    <!-- <div class="row"> -->
-    <app-servers class="col"></app-servers>
-      
-    <div class="col"><hr></div>
-    <!-- </div> -->
-  </div>
-
-  <div class="row">
-
-    <div class="input-group">
-      <div class="input-group-prepend">
-        <span class="input-group-text" id="basic-addon1">@</span>
-      </div>
-      <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+    <div class="col-12">
+      <hr>
     </div>
   </div>
 
   <div class="row">
-    <div class="col">
-      1 of 2
-    </div>
-    <div class="col">
-      2 of 2
-    </div>
+    <app-servers class="col"></app-servers> 
   </div>
 
   <div class="row">
-    <div class="col">
-      1 of 3
+    <div class="col-12">
+      <hr>
     </div>
-    <div class="col">
-      2 of 3
-    </div>
-    <div class="col">
-      3 of 3
-    </div>
-  </div> 
+  </div>
 
-  <div class="row">
-    <div class="col-sm">
-      One of three columns
-    </div>
-    <div class="col-sm">
-      One of three columns
-    </div>
-    <div class="col-sm">
-      One of three columns
-    </div>
-  </div>  
-   
 </div>
