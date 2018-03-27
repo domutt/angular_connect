@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
 
 export class AppComponent {
   appName = 'Angular App';
-  name = 'Dominic';
+  name = "Dominic's";
 }
